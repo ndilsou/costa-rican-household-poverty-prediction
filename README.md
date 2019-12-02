@@ -11,3 +11,4 @@ To setup locally run:
 
 Then run `make lab` to launch the jupyter lab server.
 
+the two notebooks cover [exploratory data analysis](./notebooks/eda.ipynb) and [modelling](./notebooks/modelling.ipynb).

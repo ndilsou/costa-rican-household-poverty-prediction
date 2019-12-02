@@ -1,6 +1,7 @@
 from typing import Optional, Union, NamedTuple
 import shutil
 import json
+from copy import deepcopy
 import datetime as dt
 from pathlib import Path
 
@@ -28,7 +29,7 @@ def save_model(
         metadata: Optional[dict] = None,
         overwrite: bool = False
 ):
-    metadata = metadata or {}
+    metadata = deepcopy(metadata or {})
     path = Path(dirpath) / name
     if path.exists():
         if overwrite:
