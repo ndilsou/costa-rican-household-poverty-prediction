@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+isort = "*"
+mypy = "*"
+ipython = "*"
+jupyterlab = "*"
+matplotlib = "*"
+seaborn = "*"
+kaggle = "*"
+ipython-autotime = "*"
+autopep8 = "*"
+
+[packages]
+pandas = "*"
+numpy = "*"
+pandas-profiling = "*"
+scipy = "*"
+sklearn = "*"
+statsmodels = "*"
+sklearn-pandas = "*"
+dill = "*"
+
+[requires]
+python_version = "3.7"
